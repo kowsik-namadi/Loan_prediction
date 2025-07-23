@@ -80,8 +80,10 @@ Improve model accuracy with advanced techniques (XGBoost, GridSearchCV)
 
 🙋‍♂️ Author
 
-Kowsik Namadi
-GitHub Profile
+
+* **KOWSIK NAMADI**
+  [GitHub](https://github.com/kowsik-namadi) | [LinkedIn](https://linkedin.com/in/kowsik-namadi)
+  
 
 
 ---
