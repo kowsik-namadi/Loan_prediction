@@ -12,8 +12,26 @@ This project is a Machine Learning-based solution for predicting whether a loan 
 The goal is to build a predictive model using historical loan application data. The model classifies whether a loan should be approved (`Y`) or rejected (`N`) based on various features such as income, loan amount, credit history, etc.
 
 ## 📁 Folder Structure
-
-Loan_prediction/ ├── data/              # Dataset files (train/test) ├── notebooks/         # Jupyter Notebooks for EDA and modeling ├── models/            # Saved trained models ├── Loan_Prediction.ipynb  # Main notebook ├── requirements.txt   # Python dependencies └── README.md          # Project documentation
+Loan_prediction/
+├── data/                    # Raw and processed dataset files
+│   ├── train.csv
+│   └── test.csv
+│
+├── notebooks/              # Jupyter notebooks for analysis & modeling
+│   └── Loan_Prediction.ipynb
+│
+├── models/                 # Trained machine learning models (Pickle/Joblib)
+│   └── loan_model.pkl
+│
+├── src/                    # Source code (modular Python scripts)
+│   ├── data_preprocessing.py
+│   ├── model_training.py
+│   ├── evaluation.py
+│   └── predict.py
+│
+├── requirements.txt        # Python package dependencies
+├── README.md               # Project documentation
+└── .gitignore              # Files and folders to ignore in version control
 
 ## 📊 Features Used
 
